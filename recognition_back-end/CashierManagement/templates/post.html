@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POST Params</title>
+</head>
+<body>
+<form method="post" >
+    {%csrf_token%}//csrf_token用来验证
+  ID:<input type="text" name="id"/>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
